@@ -127,9 +127,57 @@ ul {
 }
 
 .nav-wrapper {
+    background-color: var(--mainColor);
     grid-area: nav-wrapper;
     border-bottom: 1px solid var(--borderColor);
+    border-radius: 5px 5px 0 0;
+    /* navigation puposes */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+
+.dots-wrapper {
+    display: flex;
+    padding: 10px;
+}
+
+.bdots {
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+    margin: 5px;
+}
+
+#dot1 {
+    background-color: #fc6058;
+}
+
+#dot2 {
+    background-color: #fec02f;
+}
+
+#dot3 {
+    background-color: #2aca3e;
+}
+
+#navigation {
+    padding: 10px;
+    margin: 0;
+}
+
+#navigation,
+li {
+    display: flex;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
 
 .left-col {
     grid-area: left-col;
