@@ -27,6 +27,7 @@ strong {
     color: var(--mainText);
     font-family: 'Russo One',
         sans-serif;
+    font-weight: 500;
 }
 
 p,
@@ -104,4 +105,13 @@ ul {
     .main-container {
         width: 95%;
     }
+}
+
+/* grid-area building */
+.gwrapper {
+    display: grid;
+    text-align: center;
+    align-content: center;
+    border: 2px dashed lightcoral;
+    min-height: 10em;
 }
