@@ -1,0 +1,7 @@
+/* best practice: reset everything */
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
