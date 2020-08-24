@@ -40,10 +40,12 @@ textarea {
 
 .s1 {
     background-color: var(--mainColor);
-    border-bottom: var(--borderColor);
+    border-bottom: 1px solid var(--borderColor);
+    overflow: auto;
 }
 
 .s2 {
-    background-color: var(--mainColor);
-    border-bottom: var(--borderColor);
+    background-color: var(--secondaryColor);
+    border-bottom: 1px solid var(--borderColor);
+    overflow: auto;
 }
