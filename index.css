@@ -35,3 +35,15 @@ input,
 textarea {
     color: var(--secondaryText);
 }
+
+/* s family of class */
+
+.s1 {
+    background-color: var(--mainColor);
+    border-bottom: var(--borderColor);
+}
+
+.s2 {
+    background-color: var(--mainColor);
+    border-bottom: var(--borderColor);
+}
