@@ -120,16 +120,22 @@ ul {
 
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        'nav-wrapper nav-wrapper'
+        'left-col right-col';
 }
 
 .nav-wrapper {
+    grid-area: nav-wrapper;
     border: 1px dashed lightcoral;
 }
 
 .left-col {
+    grid-area: left-col;
     border: 1px dashed lightcoral;
 }
 
 .right-col {
+    grid-area: right-col;
     border: 1px dashed lightcoral;
 }
