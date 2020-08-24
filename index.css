@@ -74,12 +74,6 @@ ul {
     list-style: none;
 }
 
-
-
-
-
-
-
 /* s family of class */
 
 .s1 {
@@ -107,11 +101,35 @@ ul {
     }
 }
 
-/* grid-area building */
+/* greeting section */
 .gwrapper {
     display: grid;
     text-align: center;
     align-content: center;
     border: 2px dashed lightcoral;
     min-height: 10em;
+}
+
+/* introduction section */
+.intro-wrapper {
+    background-color: var(--secondaryColor);
+    border: 1px solid var(--borderColor);
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nav-wrapper {
+    border: 1px dashed lightcoral;
+}
+
+.left-col {
+    border: 1px dashed lightcoral;
+}
+
+.right-col {
+    border: 1px dashed lightcoral;
 }
