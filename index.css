@@ -14,6 +14,7 @@ body {
     --mainColor: #eaeaea;
     --secondaryColor: #fff;
     --theme-border: #24292e;
+    --previewBg: rgb(251, 249, 243, 0.8);
 }
 
 /* basic elements */
@@ -246,4 +247,19 @@ li {
     font-size: 12px;
     font-style: italic;
     text-align: center;
+}
+
+#preview {
+    width: 300px;
+    border: 1.5px solid #17a2b8;
+    background-color: var(--previewBg);
+    padding: 15px;
+}
+
+.cornER {
+    width: 7px;
+    height: 7px;
+    border: 1.5px solid #17a2b8;
+    border-radius: 50%;
+    background-color: #fff;
 }
