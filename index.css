@@ -13,6 +13,7 @@ body {
     --borderColor: #c1c1c1;
     --mainColor: #eaeaea;
     --secondaryColor: #fff;
+    --theme-border: #24292e;
 }
 
 /* basic elements */
@@ -180,6 +181,8 @@ li {
 
 .left-col {
     grid-area: left-col;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .right-col {
@@ -196,4 +199,51 @@ li {
     object-fit: cover;
     border: 1px solid var(--borderColor);
     border-radius: 50%;
+}
+
+
+#themOpt-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.theme-dot {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+
+    cursor: pointer;
+    background-color: black;
+    margin: 5px;
+    border: 2px solid var(--theme-border);
+}
+
+.theme-dot:hover {
+    border-width: 5px;
+}
+
+#light-mode {
+    background-color: #fff;
+}
+
+#blue-mode {
+    background-color: #192734;
+}
+
+#green-mode {
+    background-color: #78866b;
+}
+
+#purple-mode {
+    background-color: #7e4c74;
+}
+
+#settings-note {
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
 }
