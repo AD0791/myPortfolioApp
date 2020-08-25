@@ -186,4 +186,14 @@ li {
     grid-area: right-col;
 }
 
-#propic {}
+#propic {
+    display: block;
+    margin: 0 auto;
+
+
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border: 1px solid var(--borderColor);
+    border-radius: 50%;
+}
