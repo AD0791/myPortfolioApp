@@ -337,11 +337,21 @@ li {
   justify-content: space-evenly;
 }
 
+#repo-link {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
 #github-img {
   width: 150px;
   object-fit: cover;
   border: 1px solid var(--borderColor);
   border-radius: 50%;
+}
+
+#github-img:hover {
+  border-color: #17a2b8;
 }
 
 #gitlab-img {
@@ -351,9 +361,17 @@ li {
   border-radius: 50%;
 }
 
+#gitlab-img:hover {
+  border-color: #17a2b8;
+}
+
 #bitbucket-img {
   width: 150px;
   object-fit: cover;
   border: 1px solid var(--borderColor);
   border-radius: 50%;
+}
+
+#bitbucket-img:hover {
+  border-color: #17a2b8;
 }
