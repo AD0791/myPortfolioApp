@@ -317,10 +317,43 @@ li {
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   padding-top: 50px;
   padding-bottom: 50px;
+  gap: 50px;
 }
 
 #skills {
   display: flex;
   justify-content: space-evenly;
   background-color: var(--previewSh);
+}
+
+.social-links {
+  display: grid;
+  align-content: center;
+  text-align: center;
+}
+
+#repo-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#github-img {
+  width: 150px;
+  object-fit: cover;
+  border: 1px solid var(--borderColor);
+  border-radius: 50%;
+}
+
+#gitlab-img {
+  width: 150px;
+  object-fit: cover;
+  border: 1px solid var(--borderColor);
+  border-radius: 50%;
+}
+
+#bitbucket-img {
+  width: 150px;
+  object-fit: cover;
+  border: 1px solid var(--borderColor);
+  border-radius: 50%;
 }
