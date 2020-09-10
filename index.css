@@ -381,7 +381,6 @@ li {
 .post-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, 320px);
-  border: red dashed;
   gap: 20px;
   justify-content: center;
   padding-bottom: 15px;
