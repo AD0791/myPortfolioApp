@@ -17,10 +17,10 @@ body * {
   --borderColor: #c1c1c1;
   --mainColor: #eaeaea;
   --secondaryColor: #fff;
-  --theme-border: #24292e;
   --previewBg: rgb(251, 249, 243, 0.8);
-  --previewSh: #f0ead6;
-  --btnColor: black;
+  --previewShadow: #f0ead6;
+  --buttonColor: black;
+  --themeDotBorder: #24292e;
 }
 
 /* basic elements */
@@ -225,7 +225,7 @@ li {
   cursor: pointer;
   background-color: black;
   margin: 5px;
-  border: 2px solid var(--theme-border);
+  border: 2px solid var(--themeDotBorder);
 }
 
 .theme-dot:hover {
@@ -255,7 +255,7 @@ li {
 }
 
 #preview-shadow {
-  background-color: var(--previewSh);
+  background-color: var(--previewShadow);
   height: 180px;
   width: 300px;
   padding: 30px;
@@ -328,7 +328,7 @@ li {
 #skills {
   display: flex;
   justify-content: space-evenly;
-  background-color: var(--previewSh);
+  background-color: var(--previewShadow);
 }
 
 .social-links {
@@ -428,7 +428,7 @@ li {
   padding-top: 10px;
   padding-bottom: 10px;
   color: #fff;
-  background-color: var(--btnColor);
+  background-color: var(--buttonColor);
   border: none;
 }
 
